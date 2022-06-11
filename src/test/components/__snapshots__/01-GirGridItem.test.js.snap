@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba de <GifGridItem /> Debe de mostrarse correctamente 1`] = `
+<div
+  className="card animate__animated animate__bounceIn animate__delay-0s"
+>
+  <div
+    className="card-body"
+  >
+    <img
+      alt="Titulo del Gif"
+      src="https://media1.giphy.com/media/3o7btLqYhQnZqgXWqc/giphy.gif"
+    />
+    <p>
+      Titulo del Gif
+    </p>
+  </div>
+</div>
+`;

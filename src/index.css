@@ -12,7 +12,15 @@ body {
   font-size: 16px;
   background: #f5f5f5;
   padding: 60px;
-}  
+}
+
+#root{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+  margin: auto;
+}
 
 /*contendor para input y boton*/
 .container {
@@ -127,6 +135,7 @@ input {
 @media screen and (max-width: 600px) {
   .card-grid{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
   }
 
   .card img{
@@ -140,5 +149,10 @@ input {
   .card p{
     font-size: 14px;
     max-width: 155px;
+  }
+
+  .container {
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+    align-items: center;
   }
 }

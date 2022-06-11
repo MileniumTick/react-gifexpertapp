@@ -3,10 +3,10 @@ import { AddCategory } from "./components/AddCategory";
 import { ChangeView } from "./components/ChangeView";
 import { GifGrid } from './components/GifGrid';
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ( {defaultCategories = ['One Punch']} ) => {
 
     
-    const [categories, setCategories] = useState(['One Punch'])
+    const [categories, setCategories] = useState(defaultCategories);
     
     const [origen, setOrigen] = useState(false);
 
