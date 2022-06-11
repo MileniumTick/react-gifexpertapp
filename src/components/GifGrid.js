@@ -4,11 +4,11 @@ import { GifGridItem } from './GifGridItem';
 
 
 
-export const GifGrid = ({ category }) => {
+export const GifGrid = ({ category, origen }) => {
 
 
-    const { data:images, loading } = useFetchGifs(category);
-
+    const { data:images, loading } = useFetchGifs(category, origen);
+    
     return (
         <>
             <h3 className='animate__animated animate__fadeIn animate__repeat-2 animate_faster'>{category}</h3>
